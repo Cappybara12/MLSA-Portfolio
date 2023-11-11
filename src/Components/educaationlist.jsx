@@ -4,7 +4,7 @@ export const educaationlist = [
     {
       title: "Bachelor of Technology in Computer Science",
       description:
-        "MSIT College (IPU), Graduating in [Year]",
+        "MSIT College (IPU), Graduating in [2026]",
       url: "#",  // You can replace '#' with a link if you have a dedicated page for your education details
     },
     {
@@ -16,7 +16,7 @@ export const educaationlist = [
     {
       title: "High School",
       description:
-        "ST. MARY's CONVENT SCHOOL, [Year] - [Year]",
+        "ST. MARY's CONVENT SCHOOL, [2008] - [2020]",
       url: "#",  // You can replace '#' with a link if you have a dedicated page for your education details
     },
   ];
