@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/portfolio-img.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "person standing surrounded by tech ";
 
 /**
  * Project list
@@ -31,28 +31,29 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
-    description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+    title: "Dynamic Web Solutions with AWS Integration 🚀",
+    description: "Crafted a series of websites integrating AWS services for optimal performance and functionality.",
+    url: "https://github.com/Cappybara12/",
   },
   {
-    title: "Web Development for Beginners",
-    description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+    title: "Checkout My(AKA DEV_VOYAGER) Portfolio Website 🚀",
+    description: "Created my very own portfolio website using my tech stack .",
+    url: "https://dev-voyager.netlify.app/",
   },
   {
-    title: "My Resume Site",
-    description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+    title: "Hackathon Expertise 🏆",
+    description: "Participated ,mentored,judges and  excelled in multiple hackathons, showcasing my coding prowess and ability to meet tight deadlines.",
+    url: "https://www.linkedin.com/in/akshay-kumar-sharma-37aa55256/recent-activity/all/",
   },
   {
-    title: "GitHub Codespaces and github.dev",
-    description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+    title: "AWS Certified Developer",
+    description: "Achieved AWS certifications with 10+ badges, demonstrating expertise in cloud technologies.",
+    url: "https://www.linkedin.com/in/akshay-kumar-sharma-devvoyager/details/certifications/",
+  },
+  {
+    title: "Web Dev for Real-world Applications",
+    description: "Created impactful web solutions addressing real-world challenges, merging creativity with technical excellence.",
+    url: "https://github.com/Cappybara12/WIEHACK_BVP",
   },
 ];
 
