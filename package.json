@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
-  "homepage": "http://Cappybara12.github.io/MLSA-Portfolio",
+  "homepage": "https://Cappybara12.github.io/MLSA-Portfolio",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
