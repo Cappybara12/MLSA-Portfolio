@@ -27,7 +27,7 @@ const imageAltText = "person standing surrounded by tech ";
 const Portfolio = () => {
   return (
     <section className="padding" id="portfolio">
-      <h2 style={{ textAlign: "center" }}>EDUCATION</h2>
+      <h2 style={{ textAlign: "center" }}>PORTFOLIO</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img

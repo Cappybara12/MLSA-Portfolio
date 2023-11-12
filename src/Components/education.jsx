@@ -7,7 +7,7 @@ const imageAltText = "books ";
 
 const Education = () => {
   return (
-    <section className="padding" id="portfolio">
+    <section className="padding" id="education">
       <h2 style={{ textAlign: "center" }}>EDUCATION</h2>
         <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
             <div style={{ maxWidth: "40%", alignSelf: "center" }}>
