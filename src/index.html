@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Educator JS Codespaces Template</title>
+    <title>AKshay PORTFOLIO SITE</title>
     <link rel="stylesheet" href="styles.css" />
     
   </head>
@@ -12,6 +12,17 @@
     <noscript>You need to enable Javascript to run this application.</noscript>
     <div id="app">
       <!-- Your react app will be rendered here -->
+      <p>Visitor Count: <span id="visitorCount">Loading...</span></p>
+
+      <script>
+          // Fetch visitor count from Azure Function
+          fetch('https://mlsaportfolio2.azurewebsites.net/api/GetVisitorCount')
+              .then(response => response.json())
+              .then(data => {
+                  document.getElementById('visitorCount').innerText = data.count;
+              });
+      </script>
+  
     </div>
     <script type="module" src="index.js"></script>
   </body>
