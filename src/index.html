@@ -19,10 +19,20 @@
     <script>
         // Fetch visitor count from Azure Function
         fetch('https://mlsaportfolio2.azurewebsites.net/api/GetVisitorCount')
-            .then(response => response.json())
-            .then(data => {
-                document.getElementById('visitorCount').innerText = data.count;
-            });
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
+        }
+        return response.json();
+    })
+    .then(data => {
+        console.log(data);  // Log the data to the console to check its format
+        document.getElementById('visitorCount').innerText = data.count;
+    })
+    .catch(error => {
+        console.error('There was a problem with the fetch operation:', error);
+    });
+
     </script>
 
     <script type="module" src="index.js"></script>
