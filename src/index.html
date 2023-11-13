@@ -12,18 +12,19 @@
     <noscript>You need to enable Javascript to run this application.</noscript>
     <div id="app">
       <!-- Your react app will be rendered here -->
-      <p>Visitor Count: <span id="visitorCount">Loading...</span></p>
-
-      <script>
-          // Fetch visitor count from Azure Function
-          fetch('https://mlsaportfolio2.azurewebsites.net/api/GetVisitorCount')
-              .then(response => response.json())
-              .then(data => {
-                  document.getElementById('visitorCount').innerText = data.count;
-              });
-      </script>
   
     </div>
+    <p>Visitor Count: <span id="visitorCount">Loading...</span></p>
+
+    <script>
+        // Fetch visitor count from Azure Function
+        fetch('https://mlsaportfolio2.azurewebsites.net/api/GetVisitorCount')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('visitorCount').innerText = data.count;
+            });
+    </script>
+
     <script type="module" src="index.js"></script>
   </body>
 </html>
