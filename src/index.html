@@ -16,7 +16,7 @@
 
     <script>
       // Fetch visitor count from Azure Function
-      fetch('https://mlsaportfolio2.azurewebsites.net/api/GetVisitorCount')
+      fetch('https://mlsaportfolio2.azurewebsites.net/api/get_visitor_count')
         .then(response => {
           if (!response.ok) {
             throw new Error('Network response was not ok');
